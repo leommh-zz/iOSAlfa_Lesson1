@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0334C808220F26CF000AC01C /* magiaTop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0334C807220F26CD000AC01C /* magiaTop.jpg */; };
+		0334C80B220F3F57000AC01C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0334C80A220F3F56000AC01C /* MessageUI.framework */; };
 		039EECE9220EE3F2002FDD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039EECE8220EE3F2002FDD8B /* AppDelegate.swift */; };
 		039EECEB220EE3F2002FDD8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039EECEA220EE3F2002FDD8B /* ViewController.swift */; };
 		039EECEE220EE3F2002FDD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039EECEC220EE3F2002FDD8B /* Main.storyboard */; };
 		039EECF0220EE3FF002FDD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039EECEF220EE3FF002FDD8B /* Assets.xcassets */; };
 		039EECF3220EE3FF002FDD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039EECF1220EE3FF002FDD8B /* LaunchScreen.storyboard */; };
+		039EECFB220F11F2002FDD8B /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039EECFA220F11F1002FDD8B /* SobreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0334C807220F26CD000AC01C /* magiaTop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = magiaTop.jpg; path = ../../../../../Downloads/magiaTop.jpg; sourceTree = "<group>"; };
+		0334C80A220F3F56000AC01C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		039EECE5220EE3F2002FDD8B /* iOSAlfa_Lesson1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAlfa_Lesson1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039EECE8220EE3F2002FDD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		039EECEA220EE3F2002FDD8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		039EECEF220EE3FF002FDD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		039EECF2220EE3FF002FDD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		039EECF4220EE3FF002FDD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		039EECFA220F11F1002FDD8B /* SobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0334C80B220F3F57000AC01C /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0334C806220F2553000AC01C /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				0334C807220F26CD000AC01C /* magiaTop.jpg */,
+			);
+			path = imagens;
+			sourceTree = "<group>";
+		};
+		0334C809220F3F55000AC01C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0334C80A220F3F56000AC01C /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		039EECDC220EE3F1002FDD8B = {
 			isa = PBXGroup;
 			children = (
 				039EECE7220EE3F2002FDD8B /* iOSAlfa_Lesson1 */,
 				039EECE6220EE3F2002FDD8B /* Products */,
+				0334C809220F3F55000AC01C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +78,14 @@
 		039EECE7220EE3F2002FDD8B /* iOSAlfa_Lesson1 */ = {
 			isa = PBXGroup;
 			children = (
+				0334C806220F2553000AC01C /* imagens */,
 				039EECE8220EE3F2002FDD8B /* AppDelegate.swift */,
 				039EECEA220EE3F2002FDD8B /* ViewController.swift */,
 				039EECEC220EE3F2002FDD8B /* Main.storyboard */,
 				039EECEF220EE3FF002FDD8B /* Assets.xcassets */,
 				039EECF1220EE3FF002FDD8B /* LaunchScreen.storyboard */,
 				039EECF4220EE3FF002FDD8B /* Info.plist */,
+				039EECFA220F11F1002FDD8B /* SobreViewController.swift */,
 			);
 			path = iOSAlfa_Lesson1;
 			sourceTree = "<group>";
@@ -123,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				039EECF3220EE3FF002FDD8B /* LaunchScreen.storyboard in Resources */,
+				0334C808220F26CF000AC01C /* magiaTop.jpg in Resources */,
 				039EECF0220EE3FF002FDD8B /* Assets.xcassets in Resources */,
 				039EECEE220EE3F2002FDD8B /* Main.storyboard in Resources */,
 			);
@@ -135,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039EECFB220F11F2002FDD8B /* SobreViewController.swift in Sources */,
 				039EECEB220EE3F2002FDD8B /* ViewController.swift in Sources */,
 				039EECE9220EE3F2002FDD8B /* AppDelegate.swift in Sources */,
 			);
